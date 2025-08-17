@@ -1,0 +1,13 @@
+1. 1
+2. 2
+3. 1
+4. 4
+5. 2
+6. Child를 생성할 때에 매개변수 있는 부모 클래스의 생성자를 호출해야하는데, 자바는 기본적으로 매개변수 없는 생성자를 호출함.
+	해결방법은 Child 생성자를 작성할 때에 this.name = name이 아닌, super(name)을 한 줄 작성해주면 된다.
+7. Parent(String nation) call -> Parent() call -> Child(String name) call -> Child() call
+8. 스노우 타이어가 굴러갑니다. / 스노우 타이어가 굴러갑니다.
+9. 2
+10. Machine은 추상 클래스인데, 상속받은 Computer 클래스에서는 추상 메소드 work를 오버라이딩 하지 않았음.
+11. super
+12. a instanceof C c
